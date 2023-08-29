@@ -1,0 +1,66 @@
+html
+{
+    scroll-behavior: smooth;
+    background-color: black;
+}
+body{
+    margin: auto;
+}
+@font-face {
+    font-family: LML;
+    src: url(LEMONMILK-Light.otf);
+}
+@font-face {
+    font-family: LMM;
+    src: url(Merriweather-Bold.ttf);
+}
+@font-face {
+    font-family: FL;
+    src: url(BricolageGrotesque-VariableFont_opsz\,wdth\,wght.ttf);
+}
+@font-face {
+    font-family: AR;
+    src: url(aAreaKilometer50.ttf);
+}
+
+
+.pg1{
+
+    display: block;
+    box-sizing: border-box;
+    position: relative;
+    height: 100vh;
+    z-index: 1;
+    
+}
+
+.pg2{
+
+    display: block;
+    box-sizing: border-box;
+    position: relative;
+    height: 110vh;
+
+}
+.pg3{
+
+    display: block;
+    box-sizing: border-box;
+    position: relative;
+    height: 100vh;
+    
+
+}
+.pg4{
+
+    display: block;
+    box-sizing: border-box;
+    position: relative;
+    height: 78vh;
+
+}
+
+
+
+
+

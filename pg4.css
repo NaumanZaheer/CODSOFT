@@ -1,0 +1,244 @@
+#sect4{
+
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    position: relative;
+    top: 0;
+    background-color: #23314294;
+    
+}
+
+#sect4::before{
+
+    content: "";
+    background-image: linear-gradient(rgb(0 0 0 / 0%), rgba(0, 0, 0, 0.498)), url(bgc5.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 6%;
+    height: 80%;
+    z-index: -2;
+    opacity: 60%;
+
+}
+
+#cp4{
+
+    display: flex;
+    box-sizing: border-box;
+    position: relative;
+    top: 1%;
+    height: 80%;
+    width: 100%;
+    margin: 1% 0px 2vh 0%;
+    gap: 20%;
+    
+}
+
+#Bio{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    height: 100%;
+    width: 50%;
+    flex-wrap: wrap;
+    gap: 10%;
+    justify-content: center;
+}
+#Bio1 , #Bio2 , #Bio3
+{
+    background-color: #f2f2f2af;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0 , 0.2);
+    color: #455d7a;
+    margin: 5vh -3vh 1vh 1vh;
+}
+#Bio1{
+    
+    position: relative;
+    width: 45%;
+    top: 5%;
+    height: 30vh;
+}
+
+#Bio2{
+    
+    position: relative;
+    width: 45%;
+    top: 5%;
+    height: 30vh;
+
+}
+
+#Bio h4{
+    font-size: 28px;
+    align-self: center;
+    font-family: AR;
+    margin-left: 3vh;
+}
+#Bio bold{
+    color: #11a988;
+}
+
+#Bio li{
+    list-style: none;
+    font-size: 22px;
+    font-family: FL;
+    margin-right: 5%;
+}
+
+
+#Bio3{
+    
+    position: relative;
+    height: fit-content;
+    width: 100%;
+}
+
+
+#Attr{
+
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+
+}
+
+#head{
+
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 25%;
+    height: 105%;
+    position: relative;
+    right: 35%;
+    font-family: LMM;
+    box-shadow: rgba(0, 0, 0, 0.1) 10px 10px 30px;
+    margin-top: 2%;
+    padding: 5%;
+    font-size: 70px;
+    color: #f2f2f2;
+    justify-content: space-around;
+    align-items: center;
+}
+#head h4{
+    margin: 0;
+}
+
+#exp{
+
+    background-color: rgba(17, 169, 136, 0.835);
+    position: relative;
+    top: 5vh;
+    right: 0px;
+    height: 66vh;
+    width: 100%;
+    right: 5vh;
+    box-shadow: rgba(0, 0, 0, 0.2) 10px 10px 30px;
+    color: rgb(69, 93, 122);
+    
+}
+
+#exp h4{
+
+    font-size: 28px;
+    align-self: center;
+    font-family: AR;
+    margin-left: 3vh;
+    color: white;
+}
+#exp li{
+    position: relative;
+    list-style: none;
+    line-height: 5vh;
+    font-family: FL;
+    font-size: 22px;
+    right: 5%;
+    color: #f2f2f2;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.438);
+    
+}
+.fa-caret-right{
+    font-size: 2vh;
+    margin-right: 1vh;
+}
+
+#pageEnd{
+
+    display: flex;
+    box-sizing: border-box;
+    position: relative;
+    background-color: #455d7a;
+    height: 21%;
+    width: 100%;
+    bottom: -1%;
+    align-self: flex-end;
+    justify-content: space-evenly;
+    gap: 50%;
+
+}
+
+#pageEnd::after{
+
+    content: "Copyright ©2023 All rights reserved | Personal Portfolio | Nauman Zaheer";
+    font-family: AR;
+    color: #f2f2f2;
+    position: absolute;
+    font-size: 14px;
+    align-self: flex-end;
+    bottom: 5%;
+}
+
+#leftEnd{
+
+    box-sizing: border-box;
+    position: relative;
+    top: 0;
+    height: 100%;
+    width: 25%;
+    font-family: AR;
+    font-size: 22px;
+    line-height: 175%;
+    padding-left: 2%;
+    color: #f2f2f2;
+    
+}
+
+
+
+#icons{
+
+    display: flex;
+    flex-direction: row-reverse;
+    box-sizing: border-box;
+    height: 100%;
+    width: 15%;
+}
+
+.fa-facebook , .fa-instagram , .fa-threads , .fa-linkedin{
+    font-size: 5vh;
+    color: #f2f2f2;
+    margin-top: 10%;
+    margin-right: 5%;
+}
+
+.fa-facebook:hover , .fa-instagram:hover , .fa-threads:hover , .fa-linkedin:hover{
+    transform: translateY(-5px);
+     color: #11a988;
+    
+}
+
+
+.fa-envelope , .fa-phone , .fa-house{
+
+    display: inline-block;
+    font-size: 3vh;
+    color: #f2f2f2;
+    position: absolute;
+    left: 5%;
+}

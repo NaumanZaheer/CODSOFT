@@ -1,0 +1,108 @@
+#sect2{
+
+    box-sizing: border-box;
+    position: absolute;
+    height: 110vh;
+    width: 100%;
+    background-color: #23314294;
+
+    
+}
+#sect2::before{
+
+    content: "";
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url(bgc3.jpg);
+    background-size: cover;
+    background-position: bottom;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 11%;
+    height: 85%;
+    opacity: 60%;
+
+}
+#bg2{
+
+    box-sizing: border-box;
+    height: 92vh;
+    width: 100%;
+    position: absolute;
+    background-size: cover;
+    opacity:0.5;
+    
+}
+#cp2{
+
+
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: space-around;
+    align-items:center;
+    margin: 10% 5% 5% 5%;
+    height: max-content;
+    gap: 1vh;
+
+}
+#Edu{
+    
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-size: 70px;
+    letter-spacing: 5px;
+    left: 2vh;
+    font-family: LMM;
+    color: #f2f2f2;
+}
+
+#eduCont{
+
+    box-sizing: border-box;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5% 5% 5% 5%;
+    height: 30vh;
+    gap: 100px;
+
+}
+
+#eduCont h3{
+    font-family: AR;
+    color: #455d7a;
+    padding: 0vh 25% 0vh 35%;
+    font-size: 40px;
+}
+
+#edu1 h3 , #edu3 h3{
+    color: #f2f2f2;
+}
+#edu1, #edu2 , #edu3{
+
+    box-sizing: border-box;
+    width: 40vh;
+    height: 45vh;
+    align-self: flex-start;
+    background-color: #f2f2f2af;
+    font-family: FL;
+    border-radius: 5px;
+    font-size: 22px;
+    padding: 15px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0 , 0.2);
+    color: #455d7a;
+}
+
+#edu1{
+    margin-left: 4vh;
+    background-color: #11a988c2;
+    color: #f2f2f2;    
+}
+#edu3{
+   background-color: #11a988c2;
+   color: #f2f2f2;       
+}

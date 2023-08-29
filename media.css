@@ -1,0 +1,556 @@
+/*Devices smaller than 767px*/
+@media (max-width: 767px) {
+
+
+/* page1 media */
+nav{
+
+    position:fixed;
+    box-sizing: border-box;
+    height: 6%;
+    font-size: 12px;
+    width: 100vw;
+}
+
+nav #Home{
+order: 0;
+}
+nav #Aboutme{
+order: 1;
+}
+
+nav #Projects{
+order: 2;
+}
+
+nav #Skills{
+order: 3;
+}
+
+nav span div{
+
+    font-size: 20px;
+}
+
+#Home , #Skills, #AboutMe , #Projects{
+
+    padding: 5px 8px 5px 8px;
+}
+#Home:hover , #AboutMe:hover, #Skills:hover , #Projects:hover{
+
+    padding: 5px 8px 5px 8px;
+    transform: translateY(-3px);
+    font-size: 14px;
+}
+
+#cp1{
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    border-top: 5px solid #f2f2f200; 
+
+}
+
+
+#sect1{
+    
+    box-sizing: border-box;
+    height: 89vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 9vh;    
+}
+#sect1::before{
+
+    background-position: left;
+    width: 100%;
+}
+
+
+#leftint{
+
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    height: fit-content;
+    align-items: center;
+    gap: 20vh;
+    
+}
+
+
+
+
+#PF{
+
+    position: absolute;
+    font-size: 40px;
+    top: 10%;
+    left: 5%;
+}
+
+#IntroLine{
+
+    position: absolute;
+    box-sizing: border-box;
+    width: 80%;
+    bottom: 24%;
+    padding: 5%;
+    font-size: 22px;
+    align-self: center;
+    line-height: 170%;
+}
+
+.btns #download {
+
+    position: absolute;
+    bottom: 5%;
+    left: 10%;
+}
+
+
+
+#picsection{
+    position: relative;
+    width: 80%;
+    height: 30%;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10%;
+    order: 2;
+}
+
+#me{
+    
+
+    box-sizing: border-box;
+    position: absolute;
+    right: 0;
+    width: 35rem;
+    bottom: -10%;
+    z-index: -1;
+
+    
+}
+
+
+
+/* page2 media */
+
+.pg2{
+
+    display: block;
+    box-sizing: border-box;
+    position: relative;
+    height: inherit;
+
+}
+
+
+#sect2{
+
+    display: block;
+    height: fit-content;
+    top: 0;
+    
+}
+#sect2::before{
+
+    background-position: center;
+    position: absolute;
+    left: 0;
+    top: 5%;
+    height: 100%;
+    opacity: 60%;
+
+}
+#bg2{
+
+    box-sizing: border-box;
+    height: 92vh;
+    width: 100%;
+    position: absolute;
+    background-size: cover;
+    opacity:0.5;
+    
+}
+#cp2{
+    
+
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30% 0% 5% 0%;
+    padding-bottom: 105px;
+    height: max-content;
+    gap: 10vh;
+
+
+}
+#Edu{
+    
+    font-size: 40px;
+    position: relative;
+    top: 5vh;
+    left: 0;
+}
+
+#eduCont{
+
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5%;
+    height: 100%;
+    padding: 5% 0 5% 0;
+    gap: 20vh;
+
+}
+
+#eduCont h3{
+    padding: 0%;
+    font-size: 28px;
+}
+
+#edu1, #edu2 , #edu3{
+
+    box-sizing: border-box;
+    margin: 0;
+    width: 80%;
+    height: 70%;
+    line-height: 150%;
+    font-size: 22px;
+    align-self: center;
+}
+
+
+/* page 3 media */
+
+
+.pg3{
+
+    display: block;
+    box-sizing: border-box;
+    position: relative;
+    top: 223vh;
+    height: inherit;
+
+}
+
+#sect3{
+
+    box-sizing: border-box;
+    display: block;
+    height: 390vh;
+    
+}
+
+#sect3::before{
+
+    content: "";
+    background-position: center;
+    position: absolute;
+    left: 0;
+    top: 2%;
+    opacity: 60%;
+
+}
+
+
+
+#cp3{
+
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 5%;
+    gap: 20%;
+    background-position: center;
+}
+#cp3::before{
+
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    height: 100%;
+    margin: 3% 0px 0px 0px;
+    
+}
+
+#Prhead{
+
+    top: 10%;
+    position: relative;
+    font-size: 40px;
+}
+
+#Project{
+
+    
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    position: relative;
+    justify-content: space-around;
+    gap: 20vh;
+
+}
+
+#Pr1 , #Pr2 , #Pr3 , #Pr4{
+
+    box-sizing: border-box;
+    position: relative;
+    width: 80%;
+    height: 70vh;
+    background-color: #f2f2f2d2;
+    justify-content: center;
+    align-self: center;
+
+}
+
+#Pr1 , #Pr3{
+
+    background-color: #11a988c2;
+    color: #f2f2f2;
+}
+
+
+
+#Project h4{
+
+    display: flex;
+    font-size: 28px;
+    margin: 10% 0% 5% 0%;
+    padding: 0% 10% 0% 15%;
+    justify-content: center;
+
+}
+
+#Pr1 h4 , #Pr3 h4{
+    color: #f2f2f2;
+}
+
+
+#Project li{
+    font-size: 22px;
+    margin: 10% 5% 5% 15%;
+}
+
+/* page 4 media */
+
+
+.pg4{
+
+    box-sizing: border-box;
+    position: absolute;
+    top: 710vh;
+
+}
+
+#sect4{
+
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    position: relative;
+    
+}
+
+#sect4::before{
+
+    content: "";
+    background-position: center;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 75%;
+    top: 5%;
+    opacity: 60%;
+
+}
+
+#cp4{
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    box-sizing: border-box;
+    top: 1%;
+    height: 100%;
+    width: 100%;
+    margin: 10% 0% 15% 0%;
+    gap: 40vh;
+    
+}
+#cp4::before{
+
+    content: "SKILLS";
+    display: flex;
+    font-family: LMM;
+    font-size: 40px;
+    justify-content: center;
+    position: relative;
+    top: 150px;
+    letter-spacing: 5px;
+    color: #f2f2f2;
+
+}
+#Bio{
+
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    box-sizing: border-box;
+    height: 100%;
+    width: 80%;
+    gap: 20vh;
+    top: 15vh;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    margin-right: 3vh;
+}
+#Bio1 , #Bio2 , #Bio3
+{
+    
+    width: 100%;
+    height: 50vh;
+    top: -20vh;
+}
+
+#Bio h4{
+    font-size: 28px;
+}
+#Bio li{
+    font-size: 22px;
+}
+
+#Bio3{
+    height: fit-content;
+}
+
+#head{
+    display: none;
+    
+}
+#exp{
+
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    top: -2vh;
+    left: auto;
+    right: auto;
+    align-self: center;
+    height: fit-content;
+
+    
+    
+}
+
+#exp h4{
+
+    font-size: 28px;
+}
+#exp li{
+    font-size: 22px;
+}
+
+#pageEnd{
+
+    display: flex;
+    box-sizing: border-box;
+    position: relative;
+    height: 13vh;
+    justify-content: space-between;
+    gap: 0%;
+
+}
+
+#pageEnd::after{
+
+    content: "Copyright ©2023 All rights reserved | Personal Portfolio | Nauman Zaheer";
+    display: flex;
+    position: relative;
+    font-size: 10px;
+    order: 2;
+    bottom: 1%;
+    margin: 0 9% 10px 0%;
+
+}
+
+#leftEnd{
+
+    box-sizing: border-box;
+    display: inline-flex;
+    position: relative;
+    top: 0;
+    width: 0%;
+    font-size: 12px;
+    line-height: 175%;
+    padding-left: 1%;
+    order: 1;
+}
+#leftend l1{
+    display: block;
+    width: 50%;
+}
+#icons{
+    display: flex;
+    flex-direction: row-reverse;
+    position: absolute;
+    width: 0%;
+    order: 3;
+    top: 15%;
+    right: 0;
+    height: fit-content;
+    gap: 1vh;
+}
+
+.fa-facebook , .fa-instagram , .fa-threads , .fa-linkedin{
+    font-size: 4vh;
+    margin-top: 5%;
+    margin-right: 10px;
+}
+
+.fa-facebook:hover , .fa-instagram:hover , .fa-threads:hover , .fa-linkedin:hover{
+    transform: translateY(-2px);
+}
+
+
+.fa-envelope , .fa-phone , .fa-house{
+
+    font-size: 2vh;
+    position: absolute;
+    left: 15px;
+}
+
+}
+
+
+
+
+
+
+
+
+/*Devices between 768px and 1024px*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+}
+
+/*Devices larger than 1024px*/
+@media (min-width: 1024px) {
+  
+}

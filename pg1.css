@@ -1,0 +1,226 @@
+nav{
+
+    display: flex;
+    position:fixed;
+    box-sizing: border-box;
+    display: flex;
+    height: 8vh;
+    width: 100%;
+    background-color: #324b69e0;
+    font-family: LMM;
+    font-size: 22px;
+    align-items: center;
+    justify-content: center;
+    gap: 3%;
+    color: white;
+    z-index: 1;
+
+}
+nav span div{
+    display: inline-flex;
+    position: absolute;
+    left: 5%;
+    top: 20%;
+    font-size: 30px;
+    color: #11a988;
+}
+nav span div em{
+    color: #f2f2f2;
+}
+a:visited{
+    text-decoration: none;
+    color: inherit;;
+}
+
+#Home , #Skills, #AboutMe , #Projects{
+
+    padding: 5px 15px 5px 15px;
+    text-decoration: none;
+    color: #f2f2f2;
+    transition-property:all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+
+}
+#Home:hover , #AboutMe:hover, #Skills:hover , #Projects:hover{
+
+    border: 2px solid #11a988;
+    background-color: #11a988;
+    color:#f2f2f2;
+    padding: 5px 15px 5px 15px;
+    transform: translateY(-5px);
+    font-size: 22px;
+    cursor: pointer;
+}
+
+#cp1{
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    border-top: 5px solid #f2f2f200; 
+    background-color: #23314294;
+
+}
+
+
+#sect1{
+    
+    box-sizing: border-box;
+    height: 86vh;
+    display: flex;
+    margin: 0%;
+    margin-top: 5%;
+    justify-content: space-between;
+    
+}
+
+
+
+#leftint{
+
+    animation-name: intro;
+    animation-duration: 2s;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 60%;
+    height: 100%;
+    justify-content: center;
+    margin-left: 10%;
+    gap: 10%;
+    padding-top: 5%;
+}
+
+.btns #download {
+
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 15px;
+    color: white;
+    background-color: #11a988;
+    font-family: FL;
+
+}
+
+.btns #download:hover{
+    border: 5px solid #11a988;
+    background-color: white;
+    color: #455d7a;
+    transition-property: all;
+    transition: 0.3s;
+}
+.btns #download i:hover{
+    color: #233142;
+
+}
+
+.fa-download{
+
+    position: relative;
+    font-size: 3vh;
+    margin-left: 15px;
+    bottom: 5px;
+    
+}
+
+
+#PF{
+
+    align-items: start;
+    position: relative;
+    font-size: 60px;
+    font-family: LMM;
+    color: #f2f2f2;
+    text-shadow: 1px 1px 3px #233142;
+
+}
+
+
+
+.type{
+    color:#11a988;
+}
+
+#IntroLine{
+
+    
+    animation-name: intro;
+    animation-duration: 2s;
+    position: relative;
+    box-sizing: border-box;
+    height: max-content;
+    width: 65vh;
+    font-family: FL;
+    font-size: 26px;
+    font-weight: 500;
+    word-spacing: 5px;
+    padding: 5%;
+    color: #f2f2f2;
+
+}
+
+@keyframes intro {
+
+    0% {
+        transform: translateX(-20%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    
+}
+
+
+#picsection{
+
+    animation-name: pic;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+
+    display: flex;
+    position: relative;
+    right: 0;
+    box-sizing: border-box;
+    width: 50%;
+    height: 108%;
+    top: -2%;
+    justify-content: center;
+    align-items:end;
+    z-index: -1;
+    
+}
+
+@keyframes pic{
+
+
+    0%{
+        opacity: 50%;
+
+    }
+    50%{
+        opacity: 100%;
+    }
+
+    100%{
+        opacity: 50%;
+
+    }
+
+
+}
+
+#me{
+    
+
+    box-sizing: border-box;
+    position: relative;
+    width: 90%;
+    filter: drop-shadow(5px 5px 4px rgba(255, 255, 255 , 0.2));
+    bottom: 1%;
+    
+}
