@@ -79,13 +79,10 @@
 
 #Pr1 , #Pr2 , #Pr3 , #Pr4{
 
-    height: 54vh;
     box-sizing: border-box;
     width: 35vh;
     color: black;
-    height: 55vh;
     background-color: #f2f2f2d2;
-    height: 53vh;
     box-shadow: 10px 10px 30px rgba(0, 0, 0 , 0.2);
     color: #455d7a; 
     border-radius: 5px;   

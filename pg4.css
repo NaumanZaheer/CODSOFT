@@ -55,14 +55,14 @@
     box-sizing: border-box;
     box-shadow: 10px 10px 30px rgba(0, 0, 0 , 0.2);
     color: #455d7a;
-    margin: 5vh -3vh 1vh 1vh;
+    margin: 3vh -3vh 1vh 1vh;
 }
 #Bio1{
     
     position: relative;
     width: 45%;
     top: 5%;
-    height: 30vh;
+    height: 35vh;
 }
 
 #Bio2{
@@ -70,7 +70,7 @@
     position: relative;
     width: 45%;
     top: 5%;
-    height: 30vh;
+    height: 35vh;
 
 }
 
